@@ -1,0 +1,8 @@
+.App-header {
+    background-color: #3867d6;
+    height: 8rem;
+    @include flex-column;
+    font-size: 1.8rem;
+    color: white;
+  }
+  

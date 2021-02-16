@@ -1,0 +1,75 @@
+.outputbox
+{
+    width: 40%;
+    border: dotted #666 0.01px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    background-color: #3867d6;
+    height: 13rem;
+    box-shadow: 0 0.1rem 1rem #ededed;
+    padding: 5px;
+    margin-bottom: 3rem;
+    z-index: 3;
+
+    p {
+
+        padding: 1rem 0 ;
+        font-size: 1.4rem;
+        color: floralwhite;
+        font-weight: 500;
+
+    }
+
+    form 
+    {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        select 
+        {
+            height: 3.5rem;
+            padding:  0 1rem;
+            margin-right: 0.3rem;
+            font-family: 'Poppins';
+        }
+
+        input
+        {
+            height: 3.5rem;
+            padding: 0rem 1rem;
+            outline: none;
+            border: none;
+
+        }
+    }
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 700px) {
+    .outputbox {
+      width: 80%;
+    }
+
+    form 
+    {
+        width: 40%;
+    }
+  }
